@@ -1,0 +1,29 @@
+print("selamat datang!")
+print("mohon masukkan nama karakter")
+
+nama_pengguna1 = ("melly")
+nama_pengguna2 = ("luluk")
+
+print(f"{nama_pengguna1}:selamat pagi {nama_pengguna2} apa kabarmu?")
+baik = input(f"{nama_pengguna2}:")
+print(f"{nama_pengguna2}:kamu bagaimana?")
+aku_baik = input(f"{nama_pengguna1}:")
+print(f"{nama_pengguna1}:bagaimana kuliahmu?")
+lancar = input(f"{nama_pengguna2}:")
+
+print(f"{nama_pengguna2}:syukurlah, btw aku punya novel baru, ceritanya sangat bagus")
+print(f"{nama_pengguna1}:benarkah?")
+iya = input(f"{nama_pengguna2}:")
+print(f"{nama_pengguna2}:judulnya tentang kamu")
+print(f"{nama_pengguna1}: oh aku tau, itu penulisnya tere liye kan?")
+iya = input(f"{nama_pengguna2}:")
+print(f"{nama_pengguna1}: kamu belinya dimana?") 
+online_shop = input(f"{nama_pengguna2}:") 
+print(f"{nama_pengguna1}:berapa harga novelmu?")
+
+#OPERASI ARITMATIKA
+angka1 = int(input(f"{nama_pengguna2}:"))  
+angka2 = int(input(f"{nama_pengguna2}:"))
+jumlah = angka1 - angka2
+print(f"{nama_pengguna2}:jadi total harga {angka1} dan {angka2} adalah {jumlah}.")
+print (f"{nama_pengguna1}:baiklah aku juga akan membelinya kalau begitu")
