@@ -1,10 +1,10 @@
 # Program Cerita Pendek: Dialog Interaktif dengan Operasi Aritmatika
 print("SELAMAT DATANG DI PROGRAM SAYA")
-# Karakter pertama: Ali
+# Karakter pertama: halen
 nama_helen = "helen"
 umur_helen = 22
 
-# Karakter kedua: Siti
+# Karakter kedua: rangga
 nama_rangga = "rangga"
 umur_rangga = 20
 
