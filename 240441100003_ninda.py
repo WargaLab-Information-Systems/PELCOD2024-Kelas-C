@@ -1,26 +1,37 @@
 # Karakter pertama: ninda
 nama_1 = "ninda"
-prodi_2 = "sistem informasi 24"
-nilai_kuis1 = 80
-
+asal_1 ="riau"
+# karakter kedua: mawar
 nama_2 = "mawar"
-prodi_2 = "sistem informasi 24"
-nilai_kuis_2 = 75
+asal_2 = "bandung"
 
 print(f"{nama_1} : hallo, {nama_2} apa kabar ?")
-print(f"{nama_2} : hai,{nama_1}  kabar baik, terima kasih.")
+jawaba_nnama_2 = input(f"{nama_2} : ")
 
-print(f"{nama_1} : oo iya,aku lupa kamu prodi apa ya, {nama_2} ?")
-prodi_2 = (input (f"{nama_2} : aku prodi {prodi_2} dan kamu, {nama_1} ?"))
-print(f"{nama_1} : ternyata kita satu jurusan dan satu angkatan ya {nama_2} ! ")
+print(f"{nama_1} : oo iya,aku lupa kamu asal mana ya, {nama_2} ?")
+asal_2 = (input(f"{nama_2} : aku dari {asal_2} kamu {nama_1} ?"))
+print(f"{nama_1} : aku dari riau ")
 
+# mawar ingin liburan ke rumah ninda yang ada di riau
+print(f"{nama_2} : wah kebetulan sekali,besok aku akan liburan ke riau gimana kalau kamu ikut aku?")
+print(f"{nama_1} : tapi tiket pesawat sangat mahal")
+uang_mawar = int(input(f"{nama_2} : aku punya uang Rp  "))
+harga_tiket = 2000000
+jumlah_tiket = 2
+total_harga = harga_tiket * jumlah_tiket
 
-print(f"{nama_2} : kalau boleh tahu berapa nilai kuis kamu kemarin ?")
-nilai_kuis_1 = float(input(f"{nama_1} : {nilai_kuis1} bagaimana dengan mu, {nama_2}? "))
-print(f"{nama_2} : nilai yang bagus ninda")
+# Memeriksa jumlah uang untuk membeli tiket pesawat
+if uang_mawar >= total_harga:
+    print(f"{nama_1} : uangmu cukup, kita bisa pergi!")
+    sisa_uang = uang_mawar - total_harga
+    print(f"{nama_2} : setalah aku membeli tiket,sisa uangku menjadi Rp{sisa_uang}.")
+else:
+    kekurangan = total_harga - uang_mawar
+    print(f"{nama_1} : Uangmu kurang Rp{kekurangan}!")
 
 # Dialog Penutup
-print(f"{nama_1} : Semoga kita bisa lebih baik di kuis berikutnya!")
-print(f"{nama_2} : Iya, kita harus lebih banyak belajar lagi!")
-print(f"{nama_1} : baiklah mawar aku harus pergi sekarang")
-print(f"{nama_2} : samapi jumpa lagi ninda")
+print(f"{nama_1} : gapapa ketika kita pulang nanti aku yang akan membeli tiket")
+print(f"{nama_2} : seriusan ini gapapa?")
+print(f"{nama_1} : iyaa mawar")
+print(f"{nama_2} : baiklah besok aku akan menjemput mu untuk pergi ke bandara")
+print(f"{nama_1} : okee,samapi jumpa besok")
